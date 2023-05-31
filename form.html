@@ -7,7 +7,7 @@
     <title>The Just Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Halant&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Halant&family=Manrope&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="form.css">
     <link rel="shortcut icon" href="/Images/favicon.jpg" type="image/x-icon">
 </head>
@@ -33,14 +33,14 @@
             </div> 
             <div  class="form-div">
                 <label for="gender">Gender:</label>
-                <input type="radio" id="gender" name="gender" required>Male
-                <input type="radio" id="gender" name="gender" required>Female
+                <input class="input-btn" type="radio" id="gender" name="gender" required><span>Male</span>
+                <input class="input-btn" type="radio" id="gender" name="gender" required><span>Female</span>
             </div> 
             <div class="form-div">
                 <label for="skills">Techie Skills:</label>
-                <input type="checkbox" id="skills" name="html">HTML
-                <input type="checkbox" id="skills" name="css">CSS
-                <input type="checkbox" id="skills" name="JavaScript" >JavaScript
+                <input class="input-btn" type="checkbox" id="skills" name="html" value="HTML"><span>HTML</span> 
+                <input class="input-btn" type="checkbox" id="skills" name="css"><span>CSS</span>
+                <input class="input-btn" type="checkbox" id="skills" name="JavaScript"><span>JavaScript</span>
             </div> 
             <div class="form-div">
                 <label for="number">Phone Number:</label>
@@ -52,7 +52,7 @@
             </div>
             <div class="form-div">
                 <label for="college">College:</label>
-                <select name="college" id="college"  class ="input-wt" style="width: 45%">
+                <select name="college" id="college"  class ="input-wt">
                     <option value="select college">Select a College</option>
                 </select>
             </div>
